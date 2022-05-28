@@ -1,0 +1,9 @@
+@use "global" as *;
+.box1 {
+  width: 100%;
+  height: rem(50);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

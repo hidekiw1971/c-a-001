@@ -1,0 +1,17 @@
+@use "global" as *;
+.box1__inner--wrap {
+  width: 100%;
+  height: 100%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.box1__inner--wrap p {
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

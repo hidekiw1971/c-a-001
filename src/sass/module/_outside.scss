@@ -1,0 +1,9 @@
+@use "global" as *;
+.outside {
+  text-align: center;
+  margin: rem(10);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
